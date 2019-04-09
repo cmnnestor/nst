@@ -151,6 +151,10 @@ p {
 	background-color: #6A6A6A;
 }
 
+.contact .row .col p {
+	text-align: center;
+}
+
 .contact form {
 	padding: 20px;
 	text-align: center;
