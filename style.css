@@ -1,0 +1,201 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/***TOP NAVBAR***/
+.navbar {
+	background: #6A6A6A!important;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+	background-color: #D2D3D4!important;
+}
+
+.navbar-brand, .nav-link {
+	color: #D2D3D4!important;
+}
+
+.nav-link:hover {
+	color: #FAFAFA!important;
+}
+
+/***FIRST SECTION***/
+header {
+	display: flex;
+	background-color: #D2D3D4;
+	padding: 80px 0px;
+	height: 91vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.hcontainer {
+	display: inline-block;
+}
+
+h1, h6{
+	color: #6A6A6A;
+	text-transform: uppercase;
+}
+
+p {
+	color: #6A6A6A;
+}
+
+.hcontainer hr {
+	width: 400px;
+	background-color: #6A6A6A;
+}
+
+/***PROJECTS SECTION***/
+.projects {
+	text-align: center;
+	padding: 80px 0px 0px 0px;
+	margin: 0px;
+}
+
+.projects hr {
+	width: 150px;
+	background-color: #6A6A6A;
+}
+
+
+.projects .container {
+	padding: 80px 50px;
+}
+
+#row1, #row2{
+	justify-content: center;
+}
+
+.col-md-2 {
+	display: flex;
+	background-color: #D2D3D4;
+	height: 150px;
+	border: none;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 1s;
+}
+
+.col-md-2:hover {
+	background-color: #60627C;
+}
+
+.col-md-2 h3 {
+	font-size: 90%;
+	color: #6A6A6A;
+	transition: color 1s;
+}
+
+.col-md-2:hover h3 {
+	color: white;
+}
+
+
+/***ABOUT SECTION***/
+
+.about {
+	display: flex;
+	flex-flow: column;
+	background-color: #D2D3D4;
+	padding: 80px 0px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.about hr {
+	width: 70px;
+	background-color: #6A6A6A;
+}
+
+#abouthr {
+	width: 20px;
+	background-color: #6A6A6A
+}
+
+.col-lg-2 {
+	display: flex;
+	height: 150px;
+	border: none;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.info-grid {
+	padding: 50px 20px;
+}
+
+/***CONTACT SECTION***/
+.contact {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	align-content: center;
+	padding: 80px 0px;
+}
+
+.contact hr {
+	width: 150px;
+	background-color: #6A6A6A;
+}
+
+.contact form {
+	padding: 20px;
+	text-align: center;
+}
+
+.contact form .submitform {
+	border: solid 1px gray;
+	border-radius: 5px;
+	width: 200px;
+}
+
+.contact form #submitbt {
+	border-radius: 5px;
+	border: none;
+	width: 80px;
+	height: 30px;
+	margin: 10px 0px;
+	color: white;
+	background-color: #D46A6A;
+}
+
+.contact form #submitbt:hover {
+	background-color: #A03A3A;
+}
+
+/***FOOTER***/
+footer {
+	color: white;
+	background-color: #6A6A6A;
+	height: 40px;
+	text-align: center;
+	font-size: 80%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+footer p {
+	padding: 10px 0px 0px 0px;
+	color: #D2D3D4;
+}
+
+
+
+
+
+
+
+

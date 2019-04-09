@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	
+	<div class="wrapper">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+				<div class="container">
+	  				<a class="navbar-brand" href="index.html">BTSTRP</a>
+				  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  	</button>
+				  	<div class="collapse navbar-collapse" id="navbarNav">
+					    <ul class="navbar-nav ml-auto">
+					      <li class="nav-item">
+					        <a class="nav-link" href="#projects">Projects</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#about">About</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#contact">Contact</a>
+					      </li>
+					    </ul>
+				  	</div>
+				 </div>
+			</nav>
+
+		<header class="header">
+			<div class="hcontainer">
+				<img id="headlogo" src="logo.png" class="img-fluid" alt="Responsive image">
+				<h1>Bootstrap portfolio</h1>
+				<hr>
+				<h6>Web development - Web design</h6>
+			</div>
+		</header>
+		<section class="projects" id="projects">
+			<h1>List of projects</h1>
+			<hr>
+			<div class="container">
+				<div class="row mb-5" id="row1">
+				    <div class="col-md-2">
+				      <h3>Project nr. 1</h3>
+				    </div>
+				    <div class="col-md-2 mx-5">
+				      <h3>Project nr. 2</h3>
+				    </div>
+				    <div class="col-md-2">
+				      <h3>Project nr. 3</h3>
+				    </div>
+				</div>
+				<div class="row" id="row2">
+				    <div class="col-md-2">
+				      <h3>Project nr. 4</h3>
+				    </div>
+				    <div class="col-md-2 mx-5">
+				      <h3>Project nr. 5</h3>
+				    </div>
+				    <div class="col-md-2">
+				      <h3>Project nr. 6</h3>
+				    </div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<h1>About</h1>
+			<hr>
+			<div class="info-grid">
+				<div class="row">
+				    <div class="col">
+				      <p>Btstrp is a popular website among those eager to learn the secrets of this framework.</p>
+				    </div>
+				</div>
+				<br><hr id="abouthr"><br>
+				<div class="row">
+				    <div class="col-lg">
+				      <p>Btstrp enables you to create beautiful layouts in a quick manner, only with some clicks.</p>
+				    </div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<h1>Contact us</h1>
+			<hr>
+			<div class="row">
+			    <div class="col">
+			      <p>Send us your request and we will reach to you as soon as possible!</p>
+			    </div>
+			</div>
+			<br><br>
+			<strong><p>Contact form</p></strong>
+			<form>
+				<input class="submitform" type="text" name="fname" placeholder="First name"><br><br>
+				<input class="submitform" type="text" name="lname" placeholder="Last name"><br><br>
+				<input class="submitform" type="text" name="phone" placeholder="Phone number"><br><br>
+				<input class="submitform" type="email" name="mail" placeholder="E-mail"><br><br>
+				<input id="submitbt" type="submit" value="Send" name="contactreq">
+			</form>
+		</section>
+		<footer>
+			<p>Copyright © Timisoara 2019</p>
+		</footer>
+	</div>	
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
